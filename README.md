@@ -10,3 +10,8 @@
 - Copy `PostgresConnection.php` in `App\Database` folder
 - Connect `PostgresConnection` class in `AppServiceProvider.php` file like in [example](AppServiceProvider.php)
 - Add `casts` in you models for all boolean values
+
+# Alternative
+
+### Same logic but with composer installation
+- https://github.com/t1nkl/postgres-pgbouncer-extension
